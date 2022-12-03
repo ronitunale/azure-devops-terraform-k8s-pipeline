@@ -10,7 +10,7 @@ steps:
 - task: DownloadSecureFile@1
   name: publickey
   inputs:
-    secureFile: 'azuressh.pem'
+    secureFile: 'myvm_key.pem'
 
 - task: TerraformCLI@0
   inputs:
