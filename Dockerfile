@@ -6,6 +6,6 @@ COPY rest_api.py /app
 COPY requirements.txt /app
 RUN pip install -r requirements.txt
 
-EXPOSE 50000
+EXPOSE 5000
 
 CMD ["python", "rest_api.py"]
